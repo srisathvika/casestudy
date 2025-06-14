@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/developer/eclipse-workspace/Training/LibraryManagementSystem/src/.metadata/.plugins/org.eclipse.jdt.core
+3532120138.index
+290805488.index
+1865797976.index
+4194098558.index
