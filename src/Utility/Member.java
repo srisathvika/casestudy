@@ -1,4 +1,4 @@
-package Service;
+package Utility;
 import Dao.MemberDAO.Gender;
 public class Member {
 

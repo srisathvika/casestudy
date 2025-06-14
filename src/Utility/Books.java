@@ -1,4 +1,4 @@
-package Service;
+package Utility;
 
 import Dao.BookDAO.Availability;
 import Dao.BookDAO.Status;

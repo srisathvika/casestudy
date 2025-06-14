@@ -2,7 +2,8 @@ package Dao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import Service.Member;
+
+import Utility.Member;
 public class MemberDAO {
 	public enum Gender{
 		M,
@@ -126,6 +127,16 @@ public class MemberDAO {
 		}
 		System.out.println("Member ID "+member.getMemberId()+ "not found for update or no changes made.");
 		return false;
+	}
+
+	public Member getMemberById(int memberId) {
+		
+		String SQL= "SELECT * FROM Members WHERE memberID= ?";
+		
+		try(Connection con = DriverManager.getConnection(url,username,password);
+				PreparedStatement pstmt = con.prepareStatement(SQL)){
+			
+		}
 	}
 	
 	
